@@ -1,0 +1,15 @@
+.tabbrowser-tab {
+    border-top-left-radius: var(--theme-tabradius-top-left) !important;
+    border-top-right-radius: var(--theme-tabradius-top-right) !important;
+    border-bottom-left-radius: var(--theme-tabradius-bottom-left) !important;
+    border-bottom-right-radius: var(--theme-tabradius-bottom-right) !important;
+
+    &:active {
+        & .tab-background {
+            border-top-left-radius: var(--theme-tabradius-active-top-left);
+            border-top-right-radius: var(--theme-tabradius-active-top-right);
+            border-bottom-left-radius: var(--theme-tabradius-active-bottom-left);
+            border-bottom-right-radius: var(--theme-tabradius-active-bottom-right);
+        }
+    }
+}
